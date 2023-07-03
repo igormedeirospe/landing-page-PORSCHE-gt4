@@ -1,0 +1,132 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img{
+    object-fit: cover;
+    width: 170px;
+    height: 120px;
+}
+
+.header{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.ul{
+    padding: 45px;
+    display: flex;
+    list-style: none;
+    font-size: 30px;
+}
+.li{
+    margin-left: 16px;
+    transition: 0.3s;
+}
+.li:hover{
+    cursor: pointer;
+    opacity: 0.3;
+    
+}
+.section-1{
+    position: relative;
+    height: 58vh;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    margin-top: 14%;
+}
+#gt41{
+    width: 700px;
+    object-fit: cover;
+    
+}
+
+
+.section-2{
+    color: #FFF;
+    background: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75) , rgba(0,0,0,0.75)), url(../images/gt42.jpg);
+}
+
+.container-2{
+    max-width: 500px;
+    padding: 100px;
+}
+#p{
+    font-size: 23px;
+}
+#h1sobre{
+    font-size: 70px;
+    color: #FFF;
+    opacity: 0.8;
+
+}
+
+#video{
+    filter: brightness(40%);
+}
+.containercont{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    padding: 80px;
+}
+.imgcont{
+    width: 80px;
+    
+}
+.licont{
+    list-style: none;
+    display: inline-block;
+    font-size: 60px;
+    transition: 0.3s;
+}
+
+.licont:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+a:link {
+    color: rgb(0, 0, 0);
+ }
+ a:visited {
+    
+    color: rgb(0, 0, 0);
+}
+
+footer {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #666666;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+
+
+@media(max-width: 700px){
+    
+    #gt41{
+        width: 300px;
+        object-fit: cover;}
+
+        .container-2{
+            max-width: 600px;
+            padding: 10px;
+        }
+
+
+}
